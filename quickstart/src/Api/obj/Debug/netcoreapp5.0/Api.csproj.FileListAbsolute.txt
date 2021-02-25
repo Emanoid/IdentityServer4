@@ -1,0 +1,7 @@
+C:\Users\eolatunde\Desktop\Learning Languages\Authentication & Registration\Identity Server 4\quickstart\src\Api\obj\Debug\netcoreapp5.0\Api.csprojAssemblyReference.cache
+C:\Users\eolatunde\Desktop\Learning Languages\Authentication & Registration\Identity Server 4\quickstart\src\Api\obj\Debug\netcoreapp5.0\Api.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\eolatunde\Desktop\Learning Languages\Authentication & Registration\Identity Server 4\quickstart\src\Api\obj\Debug\netcoreapp5.0\Api.AssemblyInfoInputs.cache
+C:\Users\eolatunde\Desktop\Learning Languages\Authentication & Registration\Identity Server 4\quickstart\src\Api\obj\Debug\netcoreapp5.0\Api.AssemblyInfo.cs
+C:\Users\eolatunde\Desktop\Learning Languages\Authentication & Registration\Identity Server 4\quickstart\src\Api\obj\Debug\netcoreapp5.0\Api.csproj.CoreCompileInputs.cache
+C:\Users\eolatunde\Desktop\Learning Languages\Authentication & Registration\Identity Server 4\quickstart\src\Api\obj\Debug\netcoreapp5.0\Api.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\eolatunde\Desktop\Learning Languages\Authentication & Registration\Identity Server 4\quickstart\src\Api\obj\Debug\netcoreapp5.0\Api.MvcApplicationPartsAssemblyInfo.cache

@@ -1,0 +1,16 @@
+Steps(AdminUI): https://www.identityserver.com/documentation/adminui/Read_First/Installation_Scenarios/
+Identity Server Documentation: https://identityserver4.readthedocs.io/en/latest/
+Get Started: https://www.scottbrady91.com/Identity-Server/Getting-Started-with-IdentityServer-4
+
+Starting Over Here: http://docs.identityserver.io/en/latest/quickstarts/1_client_credentials.html
+--------------
+Keep Command in mind
+You can now use your favorite text editor to edit or view the files. If you want to have Visual Studio support, you can add a solution file like this:
+
+cd ..
+dotnet new sln -n Quickstart
+and let it add your IdentityServer project (keep this command in mind as we will create other projects below):
+
+dotnet sln add .\src\IdentityServer\IdentityServer.csproj
+--------------------
+
