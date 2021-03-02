@@ -1,12 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "xid+4/ky+xDJqGVcf64ANymykldooyMIZ048Lhl2ZJPfET+q9nnyPbq8hUI8+y3c9kn/1Ocx3UedjohSx6oB0Q==",
+  "dgSpecHash": "40dyuYjPDRPJlAy8A+vP2QC2uBNLV9PMAFRvdfu/aTuXRy1C7mIEIXAensM5bxZwcrBjvxdN2IIwe+U9UefckQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\eolatunde\\Desktop\\Learning Languages\\Authentication & Registration\\Identity Server 4\\IdentityServer4\\quickstart\\src\\IdentityServer\\IdentityServer.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\eolatunde\\.nuget\\packages\\identitymodel\\4.3.0\\identitymodel.4.3.0.nupkg.sha512",
     "C:\\Users\\eolatunde\\.nuget\\packages\\identityserver4\\4.0.0\\identityserver4.4.0.0.nupkg.sha512",
     "C:\\Users\\eolatunde\\.nuget\\packages\\identityserver4.storage\\4.0.0\\identityserver4.storage.4.0.0.nupkg.sha512",
+    "C:\\Users\\eolatunde\\.nuget\\packages\\microsoft.aspnet.identity.core\\2.2.3\\microsoft.aspnet.identity.core.2.2.3.nupkg.sha512",
+    "C:\\Users\\eolatunde\\.nuget\\packages\\microsoft.aspnet.identity.owin\\2.2.3\\microsoft.aspnet.identity.owin.2.2.3.nupkg.sha512",
     "C:\\Users\\eolatunde\\.nuget\\packages\\microsoft.aspnetcore.authentication\\2.2.0\\microsoft.aspnetcore.authentication.2.2.0.nupkg.sha512",
     "C:\\Users\\eolatunde\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.2.0\\microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\eolatunde\\.nuget\\packages\\microsoft.aspnetcore.authentication.azuread.ui\\5.0.3\\microsoft.aspnetcore.authentication.azuread.ui.5.0.3.nupkg.sha512",
@@ -49,9 +51,14 @@
     "C:\\Users\\eolatunde\\.nuget\\packages\\microsoft.net.http.headers\\2.2.0\\microsoft.net.http.headers.2.2.0.nupkg.sha512",
     "C:\\Users\\eolatunde\\.nuget\\packages\\microsoft.netcore.platforms\\5.0.0\\microsoft.netcore.platforms.5.0.0.nupkg.sha512",
     "C:\\Users\\eolatunde\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
+    "C:\\Users\\eolatunde\\.nuget\\packages\\microsoft.owin\\3.0.1\\microsoft.owin.3.0.1.nupkg.sha512",
+    "C:\\Users\\eolatunde\\.nuget\\packages\\microsoft.owin.security\\3.0.1\\microsoft.owin.security.3.0.1.nupkg.sha512",
+    "C:\\Users\\eolatunde\\.nuget\\packages\\microsoft.owin.security.cookies\\3.0.1\\microsoft.owin.security.cookies.3.0.1.nupkg.sha512",
+    "C:\\Users\\eolatunde\\.nuget\\packages\\microsoft.owin.security.oauth\\3.0.1\\microsoft.owin.security.oauth.3.0.1.nupkg.sha512",
     "C:\\Users\\eolatunde\\.nuget\\packages\\microsoft.win32.registry\\4.5.0\\microsoft.win32.registry.4.5.0.nupkg.sha512",
     "C:\\Users\\eolatunde\\.nuget\\packages\\microsoft.win32.systemevents\\5.0.0\\microsoft.win32.systemevents.5.0.0.nupkg.sha512",
     "C:\\Users\\eolatunde\\.nuget\\packages\\newtonsoft.json\\12.0.2\\newtonsoft.json.12.0.2.nupkg.sha512",
+    "C:\\Users\\eolatunde\\.nuget\\packages\\owin\\1.0.0\\owin.1.0.0.nupkg.sha512",
     "C:\\Users\\eolatunde\\.nuget\\packages\\runtime.native.system\\4.3.0\\runtime.native.system.4.3.0.nupkg.sha512",
     "C:\\Users\\eolatunde\\.nuget\\packages\\serilog\\2.8.0\\serilog.2.8.0.nupkg.sha512",
     "C:\\Users\\eolatunde\\.nuget\\packages\\serilog.aspnetcore\\3.2.0\\serilog.aspnetcore.3.2.0.nupkg.sha512",
@@ -110,5 +117,76 @@
     "C:\\Users\\eolatunde\\.nuget\\packages\\system.threading.timer\\4.0.1\\system.threading.timer.4.0.1.nupkg.sha512",
     "C:\\Users\\eolatunde\\.nuget\\packages\\system.windows.extensions\\5.0.0\\system.windows.extensions.5.0.0.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Microsoft.AspNet.Identity.Core 2.2.3' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net5.0'. This package may not be fully compatible with your project.",
+      "libraryId": "Microsoft.AspNet.Identity.Core",
+      "targetGraphs": [
+        "net5.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Microsoft.AspNet.Identity.Owin 2.2.3' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net5.0'. This package may not be fully compatible with your project.",
+      "libraryId": "Microsoft.AspNet.Identity.Owin",
+      "targetGraphs": [
+        "net5.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Microsoft.Owin 3.0.1' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net5.0'. This package may not be fully compatible with your project.",
+      "libraryId": "Microsoft.Owin",
+      "targetGraphs": [
+        "net5.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Microsoft.Owin.Security 3.0.1' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net5.0'. This package may not be fully compatible with your project.",
+      "libraryId": "Microsoft.Owin.Security",
+      "targetGraphs": [
+        "net5.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Microsoft.Owin.Security.Cookies 3.0.1' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net5.0'. This package may not be fully compatible with your project.",
+      "libraryId": "Microsoft.Owin.Security.Cookies",
+      "targetGraphs": [
+        "net5.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Microsoft.Owin.Security.OAuth 3.0.1' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net5.0'. This package may not be fully compatible with your project.",
+      "libraryId": "Microsoft.Owin.Security.OAuth",
+      "targetGraphs": [
+        "net5.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Owin 1.0.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net5.0'. This package may not be fully compatible with your project.",
+      "libraryId": "Owin",
+      "targetGraphs": [
+        "net5.0"
+      ]
+    }
+  ]
 }

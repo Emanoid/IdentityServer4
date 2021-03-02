@@ -13,6 +13,9 @@
         "packagesPath": "C:\\Users\\eolatunde\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\eolatunde\\Desktop\\Learning Languages\\Authentication & Registration\\Identity Server 4\\IdentityServer4\\quickstart\\src\\Api\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
           "C:\\Users\\eolatunde\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"

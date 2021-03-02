@@ -13,6 +13,9 @@
         "packagesPath": "C:\\Users\\eolatunde\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\eolatunde\\Desktop\\Learning Languages\\Authentication & Registration\\Identity Server 4\\IdentityServer4\\quickstart\\src\\IdentityServer\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
           "C:\\Users\\eolatunde\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
@@ -43,6 +46,10 @@
             "IdentityServer4": {
               "target": "Package",
               "version": "[4.0.0, )"
+            },
+            "Microsoft.AspNet.Identity.Owin": {
+              "target": "Package",
+              "version": "[2.2.3, )"
             },
             "Microsoft.AspNetCore.Authentication": {
               "target": "Package",

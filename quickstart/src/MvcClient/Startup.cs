@@ -1,4 +1,4 @@
-using System;
+ using System;
 using System.Collections.Generic;
 using System.IdentityModel.Tokens.Jwt;
 using System.Linq;
@@ -79,5 +79,6 @@ namespace MvcClient
                     pattern: "{controller=Home}/{action=Index}/{id?}");
             });
         }
+
     }
 }

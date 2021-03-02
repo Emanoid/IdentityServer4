@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "Fh0AmV54TsF7m49dS+mGHduAhYBnZyBS3P5rU6e5iv16Ndy3S1U1ia2VF6zrpVm+UJyIMxAN6cAzySWG1AGGzw==",
+  "dgSpecHash": "73ds8FJKkggOAvPeEywbW2i9i0THBpPVuEJbScy5bsJgRL5uwSKV5PwlovNal1FvkWicyeeBlUHxnPVLcSNznQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\eolatunde\\Desktop\\Learning Languages\\Authentication & Registration\\Identity Server 4\\IdentityServer4\\quickstart\\src\\Client\\Client.csproj",
   "expectedPackageFiles": [

@@ -1490,7 +1490,8 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\eolatunde\\.nuget\\packages\\": {}
+    "C:\\Users\\eolatunde\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
@@ -1501,6 +1502,9 @@
       "packagesPath": "C:\\Users\\eolatunde\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\eolatunde\\Desktop\\Learning Languages\\Authentication & Registration\\Identity Server 4\\IdentityServer4\\quickstart\\src\\MvcClient\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
       "configFilePaths": [
         "C:\\Users\\eolatunde\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"

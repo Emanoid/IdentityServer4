@@ -25,6 +25,7 @@ namespace IdentityServer
             ClientId = "client",
             ClientSecrets = { new Secret("secret".Sha256()) },
 
+
             AllowedGrantTypes = GrantTypes.ClientCredentials,
             // scopes that client has access to
             AllowedScopes = { "api1" }
